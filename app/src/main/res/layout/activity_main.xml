@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:contentDescription="BEM1 IMAGE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bem1"/>
+        <TextView
+            android:id="@+id/tv_bem1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:layout_marginTop="16dp"
+            android:textSize="60sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"/>
+        <Button
+            android:id="@+id/btn_bem1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VOTE"
+            android:layout_margin="8dp"
+            android:onClick="onclickbem1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:contentDescription="bem1 image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bem2"/>
+        <TextView
+            android:id="@+id/tv_bem2"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:layout_marginTop="16dp"
+            android:textSize="60sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"/>
+        <Button
+            android:id="@+id/btn_bem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VOTE"
+            android:layout_margin="8dp"
+            android:onClick="onclickbem2"/>
+
+    </LinearLayout>
+
+</LinearLayout>
